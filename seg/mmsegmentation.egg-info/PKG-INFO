@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mmsegmentation
+Version: 1.1.1
+Summary: Open MMLab Semantic Segmentation Toolbox and Benchmark
+Home-page: https://github.com/open-mmlab/mmsegmentation
+Author: MMSegmentation Contributors
+Author-email: openmmlab@gmail.com
+License: Apache License 2.0
+Keywords: computer vision,semantic segmentation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: tests
+Provides-Extra: optional
+Provides-Extra: mim
+License-File: LICENSE
+
+UNKNOWN
+
