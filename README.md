@@ -30,6 +30,7 @@ In this paper, we first introduce the lightweight spike-driven transformer, name
 
 
 ## Contact Information
+If you find this repository useful, please consider giving a star ⭐ and citation.
 
 ```
 @inproceedings{qiu2025quantized,
