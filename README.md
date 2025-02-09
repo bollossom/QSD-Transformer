@@ -34,11 +34,11 @@ If you find this repository useful, please consider giving a star ⭐ and citati
 
 ```
 @inproceedings{qiu2025quantized,
-  title={Quantized Spike-driven Transformer},
-  author={Qiu Xuerui, Zhang Jieyuan, Wei Wenjie, Cao Honglin, Guo Junsheng, Zhu Rui-Jie, Shan Yimeng, Yang Yang, Zhang Malu, Li Haizhou},
-  booktitle={The Thirteenth International Conference on Learning Representations},
-  year={2025},
-  url={https://openreview.net/forum?id=5J9B7Sb8rO}
+              title={Quantized Spike-driven Transformer},
+              author={Xuerui Qiu and Jieyuan Zhang and Wenjie Wei and Honglin Cao and Junsheng Guo and Rui-Jie Zhu and Yimeng Shan and Yang Yang and Malu Zhang and Haizhou Li},
+              booktitle={The Thirteenth International Conference on Learning Representations},
+              year={2025},
+              url={https://openreview.net/forum?id=5J9B7Sb8rO}
 }
 ```
 
