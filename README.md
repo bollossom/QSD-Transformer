@@ -16,6 +16,7 @@ Institute of Automation, Chinese Academy of Sciences
 
 :rocket:  :rocket:  :rocket: **News**:
 
+- **Feb. 24, 2025**: Checkpoint is available at [Huggingface](https://huggingface.co/Xuerui123/QSD_Transformer).
 - **Jan. 24, 2025**: Release the code for training and testing.
 
 ## Abstract
