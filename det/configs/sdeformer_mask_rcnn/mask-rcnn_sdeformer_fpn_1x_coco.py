@@ -4,7 +4,7 @@ _base_ = [
     '../_base_/schedules/schedule_1x.py', '../_base_/default_runtime.py'
 ]
 
-pretrained = "/public/liguoqi/htx/SDEFormer/checkpoint-197.pth"
+pretrained = "./checkpoint-197.pth"
 
 # augmentation strategy originates from DETR / Sparse RCNN
 train_pipeline = [
