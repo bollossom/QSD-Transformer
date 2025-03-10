@@ -10,7 +10,7 @@ _base_ = [
 norm_cfg = dict(type='SyncBN', requires_grad=True)
 crop_size = (512, 512)
 data_preprocessor = dict(size=crop_size)
-checkpoint_file = '/raid/ligq/lzx/efficient_snn/ckpt/E_19M_T4_checkpoint-197.pth'
+checkpoint_file = './E_19M_T4_checkpoint-197.pth'
 
 model = dict(
     data_preprocessor=data_preprocessor,
