@@ -10,9 +10,8 @@ _base_ = [
 norm_cfg = dict(type='SyncBN', requires_grad=True)
 crop_size = (512, 512)
 data_preprocessor = dict(size=crop_size)
-# checkpoint_file = '/raid/ligq/lzx/efficient_snn/ckpt/E_10M_T4_checkpoint-195.pth'
-# checkpoint_file = '/public/liguoqi/qxr/spikfomer/15M/checkpoint-199.pth'
-checkpoint_file = '/public/liguoqi/qxr/segmentation/q-sdt-epoch_15.pth'
+
+checkpoint_file = '.pth'
 
 model = dict(
     data_preprocessor=data_preprocessor,
