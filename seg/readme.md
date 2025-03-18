@@ -22,12 +22,10 @@ Follow the guide in [mmseg](https://github.com/open-mmlab/mmsegmentation/blob/ma
 ### Training
 Download the pretrained model
 
-Pre-trained ckpts 10M: [here](https://drive.google.com/file/d/1pHrampLjyE1kLr-4DS1WgSdnCVPzL6Tq/view?usp=sharing).
-
-Pre-trained ckpts 19M: [here](https://drive.google.com/file/d/1pSGCOzrZNgHDxQXAp-Uelx61snIbQC1H/view?usp=drive_link).
+Pre-trained ckpts 15M_w4: [here](https://huggingface.co/Xuerui123/QSD_Transformer).
 
 
-Train 19M on 1 GPUs:
+Train 15M on 1 GPUs:
 
 - `cd tools`
-- `CUDA_VISIBLE_DEVICES=0,1 ./dist_train.sh ../configs/EFSDTv2/fpn_sdtv3_512x512_19M_ade20k.py 1`
+- `CUDA_VISIBLE_DEVICES=0,1 ./dist_train.sh ./configs/q_sformer_seg/fpn_sdtv3_512x512_15M_ade20k.py 1`
