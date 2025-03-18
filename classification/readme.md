@@ -4,17 +4,16 @@
 Train:
 
 ```shell
-torchrun --standalone --nproc_per_node=8 \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 torchrun --standalone --nproc_per_node=8 \
   main_finetune.py \
-  --batch_size 256 \
+  --batch_size 196 \
   --blr 6e-4 \
-  --warmup_epochs 5 \
-  --epochs 200 \
-  --model Efficient_Spiking_Transformer_s \
-  --data_path /your/data/path \
-  --output_dir outputs/T1 \
-  --log_dir outputs/T1 \
-  --model_mode ms \
+  --warmup_epochs 15 \
+  --epochs 300 \
+  --model spikformer_8_15M_CAFormer \
+  --data_path /dataset/ImageNet2012/ \
+  --output_dir ./output_dir \
+  --log_dir ./log_dir \
   --dist_eval
 ```
 
