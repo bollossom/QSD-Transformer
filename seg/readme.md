@@ -28,4 +28,4 @@ Pre-trained ckpts 15M_w4: [here](https://huggingface.co/Xuerui123/QSD_Transforme
 Train 15M on 1 GPUs:
 
 - `cd tools`
-- `CUDA_VISIBLE_DEVICES=0,1 ./dist_train.sh ./configs/q_sformer_seg/fpn_sdtv3_512x512_15M_ade20k.py 1`
+- `CUDA_VISIBLE_DEVICES=0,1 ./dist_train.sh ./configs/q_sformer_seg/fpn_sdtv3_512x512_15M_ade20k.py 2`
