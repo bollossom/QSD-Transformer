@@ -9,7 +9,7 @@ pretrained = "/home/ligq/qxr/bsnn/output/spikformer_8_15M_CAFormer_1k/checkpoint
 # augmentation strategy originates from DETR / Sparse RCNN
 train_pipeline = [
     dict(type='LoadImageFromFile', backend_args={{_base_.backend_args}}),
-    dict(type='LoadAnnotations', with_bbox=True),
+    dict(type='LoadAnnotations', with_bbox=True, with_mask=True),
     dict(type='Resize', scale=(853, 512), keep_ratio=True),
     dict(type='RandomFlip', prob=0.5),
     dict(
