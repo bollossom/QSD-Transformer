@@ -1,5 +1,5 @@
 
-# Quantized Spike-driven Transformer ([ICLR25](https://arxiv.org/abs/2501.13492))
+# Quantized Spike-driven Transformer ([ICLR25](https://openreview.net/forum?id=5J9B7Sb8rO))
 
 [Xuerui Qiu](https://scholar.google.com/citations?user=bMwW4e8AAAAJ&hl=zh-CN), [Malu Zhang](), [Jieyuan Zhang](https://www.ericzhuestc.site/), [Wenjie Wei](), [Honglin Cao](), [Junsheng Guo](), [Rui-Jie Zhu](https://scholar.google.com/citations?user=08ITzJsAAAAJ&hl=zh-CN),[Yimeng Shan](),[Yang Yang](),  [Haizhou Li](https://www.colips.org/~eleliha/)
 
