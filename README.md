@@ -29,6 +29,8 @@ In this paper, we first introduce the lightweight spike-driven transformer, name
 
 ![avatar](./imgs/results.jpg)
 
+## Slides for a quick glance of QSD-Transformer and related contents (quantization, bio-inspired computing, etc.)
+Feel free to check <https://github.com/bollossom/QSD-Transformer/blob/main/Intro-QSD-Transformer.pptx> by Jieyuan.
 
 ## Contact Information
 If you find this repository useful, please consider giving a star ⭐ and citation.
